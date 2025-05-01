@@ -120,7 +120,7 @@ public class ShapeTest {
         assertThrows(IllegalArgumentException.class, () -> new Triangle(2, 2, -1));
         assertThrows(IllegalArgumentException.class, () -> new Triangle(0, 2, 2));
 
-  
+
         assertThrows(IllegalArgumentException.class, () -> new Triangle(1, 2, 10));
         assertThrows(IllegalArgumentException.class, () -> new Triangle(10, 1, 2));
         assertThrows(IllegalArgumentException.class, () -> new Triangle(1, 10, 2));
